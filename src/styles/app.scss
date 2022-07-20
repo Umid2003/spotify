@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "fabrika";
+    src: url("../../public/Fabrica-ZOjx.otf"), format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "fabrika", sans-serif;
+}
+
+.App {
+    transition: 0.2s all linear;
+}
+
+.library-active {
+    margin-left: 30%;
+}
+
+@import url("./_player.scss");
+@import url("./_song.scss");
+@import url("./_library.scss");
+@import url("./_nav.scss");
